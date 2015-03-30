@@ -1,4 +1,4 @@
-package com.kennelbound.logging
+package com.kennelbound.eyelib.logging
 
 import com.kennelbound.eyelib.events.CalibrationCompleteEvent
 import com.kennelbound.eyelib.events.EyesLocationEvent
