@@ -3,7 +3,7 @@ package com.kennelbound.eyelib.events
 /**
  * Created by samalsto on 3/23/15.
  */
-class CalibrationCompleteEvent {
+class CalibrationCompleteEvent extends AbstractEvent {
     enum Status {
         SUCCESS,
         FAILURE,

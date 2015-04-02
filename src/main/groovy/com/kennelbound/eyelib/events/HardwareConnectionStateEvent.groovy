@@ -3,7 +3,7 @@ package com.kennelbound.eyelib.events
 /**
  * Created by samalsto on 3/23/15.
  */
-class HardwareConnectionStateEvent {
+class HardwareConnectionStateEvent extends AbstractEvent {
     enum State {
         CONNECTED,
         NOT_CONNECTED,
